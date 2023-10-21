@@ -903,16 +903,21 @@ body {
         width: unset;
     }
 
+    .poster_img img{
+        width: 80%;
+        background-blend-mode: multiply;
+    }
+
     .logo a img {
-        width: 80px;
+        width: 100px;
     }
 
     .body_section {
         margin-top: 380px;
     }
 
-    .subfooter {
-        margin-top: 110vh;
+    #footer{
+        margin-top: 100%;
     }
 
 
