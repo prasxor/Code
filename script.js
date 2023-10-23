@@ -13,20 +13,6 @@ toggleBtn.onclick = function () {
         : 'fa-solid fa-bars'
 }
 
-// for toggle button :)
-
-// const toggleSwitch = document.getElementById('toggle');
-// const body = document.body;
-
-// toggleSwitch.addEventListener('change', () => {
-//     if (toggleSwitch.checked) {
-//         body.classList.add('dark-theme');
-//         body.classList.remove('light-theme');
-//     } else {
-//         body.classList.add('light-theme');
-//         body.classList.remove('dark-theme');
-//     }
-// });
 
 
 // navbar progress 
@@ -38,7 +24,7 @@ const height =
 window.addEventListener('scroll', () => {
     const scrollTop =
         document.body.scrollTop || document.documentElement.scrollTop;
-    scrollProgress.style.width = `${(scrollTop / height) * 110}%`;
+    scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
 });
 
 // btn smooth scroll 
