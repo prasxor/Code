@@ -209,6 +209,7 @@ body {
     padding: 20px;
 }
 
+.button
 
 /* body section  */
 
@@ -774,6 +775,11 @@ body {
     box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
 }
 
+.comment-box-1{
+    height: 380px;
+    width: 400px;
+}
+
 .comment-profile {
     display: flex;
     align-items: center;
@@ -846,6 +852,7 @@ body {
     font-size: 1.2rem;
 }
 
+
 .Name .para_icon{
     display: flex;
     align-items: center;
@@ -853,6 +860,7 @@ body {
     gap: 2vw;
     margin-top: 20px;
     width: 100%;
+    flex-direction: column;
 }
 
 .Name .para_icon i{
@@ -870,7 +878,33 @@ body {
     opacity: 20%;
 }
 
+.button_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    color: white;
+    width: max-content;
+    border: 2px solid var(--primary-dark-text-color);
+    border-radius: 12px;
+    width: 25px;
+    font-family: 700;
+    font-size: 1.3rem;
+}
 
+#goBackBtn{
+    width: 100%;
+}
+
+.button_profile:hover{
+    background-color: white;
+    color: black;
+}
+
+.Name .para_icon a{
+    width: 60%;
+    height: 20%;
+}
 
 
 

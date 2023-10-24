@@ -525,6 +525,7 @@ header {
         justify-content: center;
         display: flex;
         gap: 0;
+        flex-direction: column;
     }
 
     .main_container h3 {
@@ -618,7 +619,7 @@ header {
     }
 
     .main_container {
-        flex-direction: column;
+        flex-direction:column;
         height: 150%;
     }
 
