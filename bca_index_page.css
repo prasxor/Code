@@ -276,7 +276,9 @@ header {
 
 
 
-
+.marquee {
+    animation: marquee 10s linear infinite
+}
 
 
 
@@ -472,6 +474,11 @@ body {
         height: 35px;
         font-size: 0.7rem;
         font-weight: 600;
+    }
+
+    .top_container, .bottom_container{
+        width: 60%;
+        height: 6rem;
     }
 
 
