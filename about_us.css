@@ -122,7 +122,7 @@ header {
     font-weight: bolder;
     cursor: pointer;
     transition: 0.2s;
-    width: 130px;
+    width: max-content;
     height: 45px;
     display: flex;
     align-items: center;
@@ -776,8 +776,8 @@ body {
 }
 
 .comment-box-1{
-    height: 380px;
-    width: 400px;
+    height: 370px;
+    width: 300px;
 }
 
 .comment-profile {
@@ -1047,7 +1047,14 @@ body {
     }
 
     .btn{
-        margin-right: 1rem;
+        margin-right: 0.8rem;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .action_btn-1{
+        width: 200px;
+        
     }
 
 
