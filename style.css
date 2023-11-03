@@ -314,7 +314,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
 }
 
 /* .body_container .card {
@@ -1140,7 +1140,7 @@ body {
         height: 35px;
         font-size: 0.7rem;
         font-weight: 600;
-        margin-left: 34px;
+        /* margin-left: 34px; */
     }
 
     .body_heading-1 h2 {
